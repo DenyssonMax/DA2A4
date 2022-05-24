@@ -1,10 +1,14 @@
+import { useState } from "react"
 
 export function Counter(){
-    let counter = 0
+    //imutabiliade 
+    const [counter, setCounter] = useState(0)
 
+    //criando uma nova variavel counter na memoria 
     function increment(){
-        counter +=1
+       setCounter(Counter + 1)
     }
+
     return(
         <div>
             <h2>{counter}</h2>
