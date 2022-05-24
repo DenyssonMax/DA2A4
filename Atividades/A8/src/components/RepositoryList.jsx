@@ -1,14 +1,16 @@
+import { Counter } from "./counter"
+import { RepositoryItem } from "./RepositoryItem"
+
+const repository = {
+    name:"Atividade",
+    description: "Descrição da atividade",
+    link: "https://github.com/DenyssonMax/DW2A4/tree/main/Atividades"
+}
 export function RepositoryList(){
     return (
-        <section className="respository-list">
-            <h1>Lista de Repositórios</h1>
-            <ul>
-                <li>
-                    <strong>Unform</strong>
-                    <p>Forms in React</p>
-                    <a href="">Acessar o respositório</a>
-                </li>
-            </ul>
-        </section>
+        <>
+            < RepositoryItem  repository={repository}/>
+            < Counter />            
+         </>
     )
 }
