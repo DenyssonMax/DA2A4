@@ -1,5 +1,5 @@
-import '.styles/global.css'
+import '.styles/global.scss'
 
 export function App(){
-    return <h1>TESTE4</h1>
+    return <h1>TESTE</h1>
 }
