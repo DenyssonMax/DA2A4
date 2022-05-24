@@ -15,7 +15,7 @@
     align-items: center;
     justify-content: center;
   
-    background: url(../img/bg.jpg);
+    background: url(./img/paisagem.jpg);
   }
   
   .container {
@@ -72,14 +72,14 @@
   }
   
   .main .form input:focus {
-    border: 1px solid #6275bb;
+    border: 1px solid #e452b8;
   }
   
   .main .form button {
     height: 40px;
     border-radius: 3px;
     border: none;
-    background-color: #6275bb;
+    background-color: #e452b8;
     color: #fff;
     font-size: 1.1rem;
     margin-top: 15px;
@@ -88,7 +88,7 @@
   }
   
   .main .form button:hover {
-    background-color: #50609b;
+    background-color: #953ad1;
   }
   
   .errorInput {
