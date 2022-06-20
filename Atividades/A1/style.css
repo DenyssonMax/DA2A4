@@ -17,17 +17,17 @@ body {
 h2 {
     margin-top: 3.2rem;
     margin-bottom: 0.8rem;
-    color: darkslategray;
+    color: rgb(89, 224, 224);
 }
 /* Head */
 header{
-    background: yellowgreen;
+    background: rgb(184, 218, 118);
     padding: 2rem 0 10rem;
     text-align: center;
 }
 
 #logo {
-    color:darkslategrey;
+    color:rgb(89, 224, 224);
     font-weight: 110;
 }
 
@@ -44,7 +44,7 @@ header{
 }
 /* Card */
 .card{
-    background:rgba(100, 100, 100, 0.247);
+    background:rgba(214, 146, 146, 0.247);
     padding: 1.4rem;
     border-radius: .50rem;
 
@@ -64,7 +64,7 @@ header{
 }
 
 .card.total{
-    background: rgba(100, 100, 100, 0.774);
+    background: rgba(167, 120, 120, 0.486);
     
 }
 
@@ -82,7 +82,7 @@ table tbody tr td:first-child{
 table thead th{
     background: rgba(100, 100, 100, 0.247);
     
-    color: darkslategray;
+    color: rgb(89, 224, 224);
     font-weight: normal;
     padding: 1rem 1rem;
     text-align: center;
@@ -114,7 +114,7 @@ td.expense{
 
 /* ----------------------------- */
 footer{
-    background: yellowgreen;
+    background: rgb(89, 224, 224);
     padding: 2rem 0  2rem;
     text-align: center;
 
